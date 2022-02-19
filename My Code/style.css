@@ -1,0 +1,101 @@
+.districtHeader {
+	background-color: red;
+	display: flex;
+	height: 50px;
+	padding-right: 5px;
+	padding-left: 5px;
+	align-items: center;
+}	
+
+.districtSocials {
+	margin-right: auto;
+	overflow: visible;
+	float: left;
+}
+
+.districtInfo {
+	display: flex;
+	align-content: space-between;
+	float: right;
+}
+h1{
+	color: black;
+	font-size: 36px;
+	font-weight: ;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+	color: black;
+	font-size: 24px;
+	font-weight: ;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3 {
+	color: black;
+	font-size: 17px;
+	font-weight: ;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+p {
+	color: black;
+	font-size: 14px;
+	font-weight: bold;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hinojosaTitle {
+	margin-right: auto;
+}
+
+#logo {
+}
+
+.hinojosaHeader {
+	display:flex;
+	justify-content: space-between;
+}
+
+#mainNav {
+	margin-left: auto;
+	align-items: flex-end;
+	justify-content: space-evenly;
+	padding-top: 100px;
+}
+
+.navLink {
+	text-decoration: none;
+	color: black;
+	padding-left: 20px;
+}
+
+.distNavLink {
+	justify-content: space-evenly;
+	text-decoration: none;
+	color: black;
+	padding-left: 20px;
+	
+}
+
+.quickLinks {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: red;
+	height: auto;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+.quickLinksItem {
+	list-style-type: none;
+	align-content: center;
+}
+
+.vl {
+	border-left: 2px solid rgba(0, 0, 0, .15); 
+	height: auto;
+  }
