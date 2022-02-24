@@ -243,3 +243,31 @@ p {
 	padding-top: 52px;
 	padding-left: 10px;
 }
+
+.footer {
+    background-color: #4A4A4A;
+	color: white;
+    height: 250px;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerSocials {
+    justify-self: center;
+}
+
+.column {
+    margin: 15px;
+}
+
+.leftRow {
+    justify-self: center;
+}
+
+.logo {
+    background-color: #4A4A4A;
+    padding-top: 52px;
+    padding-left: 10px;
+    align-self: flex-start;
+}
