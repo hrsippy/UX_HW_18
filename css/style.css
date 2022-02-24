@@ -11,12 +11,14 @@
 	margin-right: auto;
 	overflow: visible;
 	float: left;
+	padding-left: 30px;
 }
 
 .districtInfo {
 	display: flex;
 	align-content: space-between;
 	float: right;
+	padding-right: 30px;
 }
 h1{
 	color: black;
@@ -51,17 +53,50 @@ p {
 	margin-right: auto;
 }
 
-
 .hinojosaHeader {
 	display:flex;
 	justify-content: space-between;
+	padding-top: 40px;
+	padding-left: 39px;
 }
 
+.navSocials {
+	display: flex;
+	align-items: stretch;
+	align-items: center;
+	justify-content: center;
+}
+
+.big-image {
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.overlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, .15);
+	color: white;
+	display: flex;
+	align-items:center;
+	justify-content:left;
+	flex-direction: column;
+}
+.overlay p {
+	font-size: 18px;
+}
 #mainNav {
 	margin-left: auto;
 	align-items: flex-end;
 	justify-content: space-evenly;
 	padding-top: 100px;
+	padding-right: 15px;
 }
 
 .navLink {
@@ -98,7 +133,12 @@ p {
 	height: auto;
   }
 
-  .navContainer {
+.newsletter {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.navContainer {
 	display: flex;
 	align-content: center;
 	background-color: #E73F34;
@@ -190,4 +230,16 @@ p {
 }
 .footer {
 	background-color: #4A4A4A;
+	height: 250px;
+	
+}
+
+.logo {
+	background-color: #4A4A4A;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-items: left;
+	padding-top: 52px;
+	padding-left: 10px;
 }
